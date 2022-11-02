@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ContadorH1 />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ContadorH1 from './components/ContadorH1.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ContadorH1
   }
 }
 </script>
